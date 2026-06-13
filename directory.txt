@@ -1,0 +1,14 @@
+market_intelligence_platform/
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── directory.txt
+├── data/
+│   ├── electronics_sample_30k.json
+│   └── electronics_products_clean.parquet/
+├── notebooks/
+│   └── market_intelligence_platform.ipynb
+└── src/
+    ├── __init__.py
+    ├── pipeline_etl.py
+    └── motor_rag.py
