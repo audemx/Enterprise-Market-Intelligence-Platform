@@ -1,0 +1,15 @@
+# Excluir entornos virtuales
+.venv/
+env/
+
+# Excluir carpetas de datos (Locales y pesadas)
+data/
+*.json
+*.parquet/
+
+# Excluir configuraciones de VS Code o Mac
+.DS_Store
+.ipynb_checkpoints/
+
+# EXCLUIR LLAVES Y CREDENCIALES (Por seguridad)
+.env
